@@ -1,2 +1,2 @@
-# Formul-rio-de-inscri-o
+# Formulario de inscricao
 fazendo um hobby virar um repositório 
