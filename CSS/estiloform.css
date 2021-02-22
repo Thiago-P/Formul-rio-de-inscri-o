@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif ;
+    
+}
+main{
+    margin:0;
+    background-image: url("../IMG/fundoviola.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.topmenu{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 175, 53);
+    
+}
+.topmenu li{
+    display: block;
+    padding:15px ;
+    font-size: 15px;
+   
+}
+.header{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+.form{
+    border-radius: 5px;
+    border: solid 1px;
+    width: 600px;
+    margin:0 auto;
+    margin-top: 5%;
+    background-color: rgb(241, 175, 53);
+    padding: 15px;
+    font-size: 16px;
+
+}
+.formcampos{
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    border: solid 1px;
+
+}
+.formcheck{
+    display:block;
+}
+.comentario{
+    width: 100%; 
+    height: 200px; 
+    resize: none;
+    border-radius: 5px;
+    font-size: 14px;
+    border: solid 1px;
+
+}   
+.enviar{
+    border: solid 1px;
+    width: 100%;
+    height: 40px;
+    background-color:rgb(47, 48, 47);
+    color: ghostwhite;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+
