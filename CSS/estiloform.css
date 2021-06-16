@@ -5,72 +5,85 @@
     
 }
 main{
-    margin:0;
     background-image: url("../IMG/fundoviola.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  
 }
 .topmenu{
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(241, 175, 53);
-    
+    flex-wrap: wrap;
+    background-color: #f1af35;
+    font-weight: bold;
+    padding:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .topmenu li{
-    display: block;
-    padding:15px ;
+    list-style: none;
     font-size: 15px;
-   
 }
-.header{
-    margin-top: 100px;
+
+.cabecalho{
+    margin-top: 80px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    color: #fff;
 }
+
 .form{
     border-radius: 5px;
     border: solid 1px;
-    width: 600px;
+    width: 45vw;
     margin:0 auto;
-    margin-top: 5%;
-    background-color: rgb(241, 175, 53);
-    padding: 15px;
-    font-size: 16px;
-
+    margin-top: 80px;
+    background-color: #f1af35;
+    padding: 15px;  
 }
+
 .formcampos{
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 5px;
     width: 100%;
     height: 30px;
     border: solid 1px;
-
 }
 .formcheck{
     display:block;
+    padding: 5px;
 }
+
 .comentario{
     width: 100%; 
     height: 200px; 
-    resize: none;
-    border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
     border: solid 1px;
-
 }   
+
 .enviar{
     border: solid 1px;
     width: 100%;
-    height: 40px;
-    background-color:rgb(47, 48, 47);
+    height: 30px;
+    background-color:#2f302f;
     color: ghostwhite;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 15px;
 }
-
-
+.rodape{
+    margin-top: 100px;
+    background-color: #f1af35;        
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+}
+.icones{
+    display: flex;
+    list-style: none;
+}
+.icones img{
+    width: 36px;
+    padding-right: 15px;
+}
 
 
